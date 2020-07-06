@@ -1,0 +1,21 @@
+/* Set up border box box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.nav {
+  background-color: navajowhite;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  margin: 0;
+}
